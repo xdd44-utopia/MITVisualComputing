@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1999420277668907028}
   - component: {fileID: 1999420277668907029}
   - component: {fileID: 1999420277668907030}
-  - component: {fileID: 1999420277668907031}
+  - component: {fileID: -3984073596369369782}
+  - component: {fileID: 3659698125948501418}
   m_Layer: 0
   m_Name: Unit
   m_TagString: Untagged
@@ -84,7 +85,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1999420277668907031
+--- !u!114 &-3984073596369369782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999420277668907024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ba27a2cbfde4289aee938b5658b21c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linePrefab: {fileID: 5493689371942894204, guid: d52ce8209abf842fd8c81a0b4b5201c3, type: 3}
+  positive: {fileID: 2100000, guid: d150d12a92493445b9ad8f9ee98b3bae, type: 2}
+  negative: {fileID: 2100000, guid: 716d0826bd14b411c83502f5a94e7afb, type: 2}
+  lockDeadMat: {fileID: 2100000, guid: 82fba784aca8148f0ae30526be270199, type: 2}
+  lockLiveMat: {fileID: 2100000, guid: 833e856c35fdb47c2812a45cc3ddf204, type: 2}
+--- !u!135 &3659698125948501418
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
